@@ -29,7 +29,7 @@ Here are the steps to take you through the basics, based on the environment in t
    * Project Name: Simple Flashlight
    * Build Target: 1.6 (same as Android G1 phones we have)
    * Application Name: Simple Flashlight
-   * Package Name: com.oreilly.simpleflashlight
+   * Package Name: com.oreilly.simpleflashlight (or edu.purdue.YOUR-LOGIN.YOUR-APP-NAME)
    * Activity Name: `RedFlashlightActivity`
    * Finish (to create the project with skeleton code)
   * Within Eclipse, launch the Android SDK and AVD Manager (on Window menu, or use the small telephone icon on the toolbar).
