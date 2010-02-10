@@ -17,7 +17,7 @@ If you can come a few minutes early, we can help you get set up.
 
 = Walk-Through =
 
-Here are the steps to take you through the basics, starting in the instructional lab in the Lawson Building, LWSN B158 (Linux with KDE).
+Here are the steps to take you through the basics, based on the environment in the instructional lab in the Lawson Building, LWSN B158 (Linux with KDE).
 
   * Launch Eclipse (in Applications/Development).
   * Create a workspace (preferably in a fresh directory).
