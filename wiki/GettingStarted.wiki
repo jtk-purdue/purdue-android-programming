@@ -1,0 +1,22 @@
+#summary Getting Started.
+
+= Getting Started =
+
+Did you miss the "Overview" talk by Tony Hillerson?  Here are the steps necessary to get caught up with the rest of the class.
+
+= Preparing for the Workshop =
+
+If you do not have an account on the CS machines, send me [[mailto:jtk@purdue.edu|email]].
+
+If you have a laptop, you may want to use it rather than one of the lab machines.  You'll need the Java SDK, the Android SDK, Eclipse, and the Android Development Tools (ADT).
+
+  * http://www.eclipse.org/downloads/ (get eclipse-java-galileo-SR1-linux-gtk.tar.gz)
+  * http://developer.android.com/sdk/index.html
+
+If you can come early for at least the first day (today), it will help getting started.  I'll plan to be in the lab at 1:30.
+
+= Walk-Through =
+
+Here are the steps to take you through the basics, starting in the instructional lab in the Lawson Building, LWSN B158.
+
+_coming soon_
