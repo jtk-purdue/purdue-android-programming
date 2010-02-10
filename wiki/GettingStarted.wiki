@@ -39,5 +39,14 @@ Here are the steps to take you through the basics, starting in the instructional
    * Select AVD, press Start, then Launch
    * Wait for emulator to fully initialize (it takes a couple of minutes; you'll see a lockscreen message, then press the Menu button).
    * It is OK to close the Android SDK and AVD Manager window.
-  * Back in Eclipse, right click on the Project (in the left window) and choose Run As -> Android Application.
-  * It should compile, build, install, and launch the RedFlashlightActivity.
+  * Back in Eclipse...
+   * Right click on the Project (in the left window) and choose Run As -> Android Application.
+   * It should compile, build, install, and launch the RedFlashlightActivity.
+
+You are at a stopping point: You have configured your environment, created a simple Android project template, and installed it on the Android emulator.
+
+If you have an Android phone, you can plug it into a USB port.  To download development applications, you need to enable "USB debugging":
+
+  * Menu -> Settings -> Applications -> Development -> (allow) USB debugging.
+
+Back to the Simple Flashlight application...
