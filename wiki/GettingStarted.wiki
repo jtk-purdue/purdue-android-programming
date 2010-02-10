@@ -17,6 +17,17 @@ If you can come a few minutes early, we can help you get set up.
 
 = Walk-Through =
 
-Here are the steps to take you through the basics, starting in the instructional lab in the Lawson Building, LWSN B158.
+Here are the steps to take you through the basics, starting in the instructional lab in the Lawson Building, LWSN B158 (Linux with KDE).
 
-_coming soon_
+  * Launch Eclipse (in Applications/Development).
+  * Create a workspace (preferably in a fresh directory).
+  * If necessary, set the Android SDK location in Eclipse:
+   * Eclipse -> Window -> Preferences -> Android -> SDK Location
+   * /opt/android-sdk-1.6
+  * Create a new Android project
+   * File -> New -> Other -> Android -> Android Project -> Next
+   * Project Name: Simple Flashlight
+   * Build Target: 1.6 (same as Android G1 phones we have)
+   * Application Name: Simple Flashlight
+   * Package Name: com.oreilly.simpleflashlight
+   * Activity Name: RedFlashlightActivity
