@@ -49,4 +49,6 @@ If you have an Android phone, you can plug it into a USB port and download your 
 
   * Menu -> Settings -> Applications -> Development -> (allow) USB debugging.
 
-Completing the Simple Flashlight application involved making changes to the screen layout, in layout/main.xml, adding new string and color constants to values/strings.xml and (adding) values/colors.html, adding a new activity (`GreenFlashlightActivity`, including updating `AndroidManifest.xml`), adding a layout for the green light activity, and modifying the main Java code (`RedFlashlightActivity`) to send an intent that starts the green activity.  We hope to post the code here in the Source.
+Completing the Simple Flashlight application involves making changes to the screen layout, in layout/main.xml, adding new string and color constants to values/strings.xml and (adding) values/colors.html, adding a new activity (`GreenFlashlightActivity`, including updating `AndroidManifest.xml`), adding a layout for the green light activity, and modifying the main Java code (`RedFlashlightActivity`) to send an intent that starts the green activity.  We hope to post the code here in the Source.
+
+The rest of the workshop will be to develop and expand a different application, so there is no (real) need to complete the Simple Flashlight application.
