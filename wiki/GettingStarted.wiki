@@ -31,3 +31,13 @@ Here are the steps to take you through the basics, starting in the instructional
    * Application Name: Simple Flashlight
    * Package Name: com.oreilly.simpleflashlight
    * Activity Name: RedFlashlightActivity
+   * Finish (to create the project with skeleton code)
+  * Within Eclipse, launch the Android SDK and AVD Manager (on Window menu, or use the small telephone icon on the toolbar).
+   * Create a new AVD (Android Virtual Device)
+   * Name: MyAndroid (choose arbitrary alphanumeric string)
+   * Target: Android 1.6 (to match the Build Target, although upward compatible would be OK).
+   * Select AVD, press Start, then Launch
+   * Wait for emulator to fully initialize (it takes a couple of minutes; you'll see a lockscreen message, then press the Menu button).
+   * It is OK to close the Android SDK and AVD Manager window.
+  * Back in Eclipse, right click on the Project (in the left window) and choose Run As -> Android Application.
+  * It should compile, build, install, and launch the RedFlashlightActivity.
