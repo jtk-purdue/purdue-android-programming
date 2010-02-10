@@ -13,7 +13,7 @@ If you have a laptop, you may want to use it rather than one of the lab machines
   * [http://www.eclipse.org/downloads/] (get eclipse-java-galileo-SR1-linux-gtk.tar.gz)
   * [http://developer.android.com/sdk/index.html]
 
-If you can come early for at least the first day (today), it will help getting started.  I'll plan to be in the lab at 1:30.
+If you can come a few minutes early, we can help you get set up.
 
 = Walk-Through =
 
