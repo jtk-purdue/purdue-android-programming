@@ -45,8 +45,8 @@ Here are the steps to take you through the basics, starting in the instructional
 
 You are at a stopping point: You have configured your environment, created a simple Android project template, and installed it on the Android emulator.
 
-If you have an Android phone, you can plug it into a USB port.  To download development applications, you need to enable "USB debugging":
+If you have an Android phone, you can plug it into a USB port and download your program to the phone.  You will need to enable "USB debugging":
 
   * Menu -> Settings -> Applications -> Development -> (allow) USB debugging.
 
-Back to the Simple Flashlight application...
+Completing the Simple Flashlight application involved making changes to the screen layout, in layout/main.xml, adding new string and color constants to values/strings.xml and (adding) values/colors.html, adding a new activity (GreenFlashlightActivity, including updating AndroidManifest.xml), adding a layout for the green light activity, and modifying the main Java code (RedFlashlightActivity) to send an intent that starts the green activity.  We hope to post the code here in the Source.
