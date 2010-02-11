@@ -10,5 +10,6 @@ public class SampleApp extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Toast.makeText(this, "hello there", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "more toast", Toast.LENGTH_LONG).show();
     }
 }
