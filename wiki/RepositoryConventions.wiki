@@ -2,21 +2,21 @@
 
 = Introduction =
 
-This repository is not organized as a typical, single-project subversion repository.  Instead of top-level "trunk", "branches", and "tags" directories, the top-level directories "projects" and "members".
+This repository is not organized as a typical, single-project subversion repository.  Instead of top-level "trunk", "branches", and "tags" directories, the top-level directories are "projects" and "members".
 
   * *projects*: One directory for each group or team project.
   * *members*: One directory for each member of the Purdue Android Programming group.  These directories are for individuals to upload and share homework assignments, individual projects, etc.  
 
 = Naming Conventions =
 
-*On this site...*
+==On this site...==
 
   * *Member Directory*: Named by the Purdue login id of the owner.
   * *Project Directory*: Use camel-case, space-free application name.  Example: `SimpleFlashlight`.
 
-*In your Eclipse setup...*
+==In your Eclipse setup...==
 
   * *Project Name*: Can be anything, but might as well use the Application Name (see below).  Example: `Simple Flashlight`.
   * *Application Name*: User friendly (caps and blanks) name.  This name is what users of your application see on their launch screen, so keep the name short and catchy (generally, don't include "App" or "Application" in the name).  Example: `Simple Flashlight`.
   * *Package Name*: Use name of the form `edu.purdue.YOUR-LOGIN.APP-NAME`, where `YOUR-LOGIN` is your Purdue login id and `APP-NAME` is a lower-case, blank-free name of your application (e.g., `simpleflashlight`).  Example: `edu.purdue.jtk.simpleflashlight`.
-  * *Activity Name* (under "Create Activity"): Java class-style name for the initial Activity that will be launched in your application.  This name will be defined as a subclass of Activity in package `edu.purdue.YOUR-LOGIN.APP-NAME`.  Example: `RedFlashlightActivity` (resulting in fully qualified subclass `edu.purdue.jtk.simpleflashlight.RedFlashlightActivity`).
+  * *Activity Name* (shown as "Create Activity"): Java class-style name for the initial Activity that will be launched in your application.  This name will be defined as a subclass of Activity in package `edu.purdue.YOUR-LOGIN.APP-NAME`.  Example: `RedFlashlightActivity` (resulting in fully qualified subclass `edu.purdue.jtk.simpleflashlight.RedFlashlightActivity`).
