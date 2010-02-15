@@ -2,5 +2,5 @@
 <resources>
     <string name="hello">Hello World, Homework1!</string>
     <string name="app_name">Homework 1</string>
-	<string name="dial">Dial</string>
+	<string name="dial">Dialer</string>
 </resources>
