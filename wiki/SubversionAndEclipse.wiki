@@ -44,7 +44,7 @@ You will be using an Eclipse plug-in named [http://subclipse.tigris.org/ Subclip
   * Select SVN, then Next.
   * Enter (if not already present) your location URL in the repository.  Use `https:"` since you will be modifying the repository.
   * Example: https://purdue-android-programming.googlecode.com/members/YOUR-LOGIN
-  * Select (default) "Use project name as folder name"
+  * Set the folder name to your Project name without spaces (this is *not* the default).  Example: Use `SimpleSample` rather than `Simple Sample`.  Spaces in paths can be a pain with command-line tools.
   * Edit (if you want to) the "commit comment".
   * Finish.
  
