@@ -1,6 +1,8 @@
 #summary Instructions for using Subversion with Eclipse.
 
-*_These instructions may be specific to use of Subversion in the Eclipse environment in LWSN B158, an instructional laboratory at Purdue University._*
+*_DRAFT--Use with caution and let me know of errors and suggestions.  Thanks._*
+
+These instructions are specific to use of Subversion in the Eclipse environment in LWSN B158, an instructional laboratory at Purdue University.
 
 = Install and Configure Subclipse =
 
