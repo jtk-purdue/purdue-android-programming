@@ -21,7 +21,7 @@ You will be using an Eclipse plug-in named [http://subclipse.tigris.org/ Subclip
   * Click Next
   * Click Finish
 
-== Step Three: Configure SVNKit for use by Subclipse
+== Step Three: Configure SVNKit for use by Subclipse ==
 
   * Go to Preferences/Team/SVN...
   * Under SVN Interface/Client, choose SVNKit (rather than JavaHL, which is not available in this lab).
