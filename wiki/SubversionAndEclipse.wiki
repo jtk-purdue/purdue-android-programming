@@ -1,0 +1,51 @@
+#summary Instructions for using Subversion with Eclipse.
+
+These instructions may be specific to use of Subversion in the Eclipse environment in LWSN B158, an instructional laboratory at Purdue University.
+
+= Install and Configure Subclipse =
+
+You will be using an Eclipse plug-in named [http://subclipse.tigris.org/ Subclipse].  To enable it in Eclipse:
+
+== Step One: Configuring the Subclipse site ==
+
+  * Launch Eclipse.
+  * Go to Help/Install New Software.../Add... to get the Add Site dialog.
+  * Type "Subclipse" in the Name blank.
+  * Enter `http://subclipse.tigris.org/update_1.6.x` in the Location blank.
+  * Click OK.
+
+== Step Two: Downloading the Subclipse package ==
+
+  * At the "Available Software" dialog (Help/Install New Software...), in the "Work with" blank, select the Subclipse entry.
+  * Select the (three) checkboxes to indicate all Subclipse components and dependencies to be installed.
+  * Click Next
+  * Click Finish
+
+== Step Three: Configure SVNKit for use by Subclipse
+
+  * Go to Preferences/Team/SVN...
+  * Under SVN Interface/Client, choose SVNKit (rather than JavaHL, which is not available in this lab).
+
+= Using Subclipse =
+
+== Downloading a Project in Read-Only Mode ==
+
+  * Select New/Other/SVN/Checkout Projects from SVN...
+  * Create a new repository location
+  * Next
+  * Enter a URL with a project.  Using `http:` gets you a read-only copy.  Using `https:` attempts to check out a modifiable copy.
+  * Example: http://purdue-android-programming.googlecode.com/members/jtk/Homework1
+
+== Adding your own Project to the Purdue Android repository ==
+
+  * You need an account at this (Google Code) site.  See jtk.
+  * With your Project open...
+  * Right click on Project name, select "Team -> Share Project...".
+  * Select SVN, then Next.
+  * Enter (if not already present) your location URL in the repository.  Use `https:"` since you will be modifying the repository.
+  * Example: https://purdue-android-programming.googlecode.com/members/YOUR-LOGIN
+  * Select (default) "Use project name as folder name"
+  * Edit (if you want to) the "commit comment".
+  * Finish.
+ 
+A dialog about using the "Team Synchronizing perspective" appears.  Ignore or use if you wish.
