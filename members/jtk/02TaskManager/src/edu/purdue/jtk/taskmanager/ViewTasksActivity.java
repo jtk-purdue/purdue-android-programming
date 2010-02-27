@@ -1,6 +1,8 @@
-package com.oreilly.android.taskmanager;
+package edu.purdue.jtk.taskmanager;
 
-import com.oreilly.android.taskmanager.adapters.TaskListAdapter;
+import com.oreilly.android.taskmanager.R;
+
+import edu.purdue.jtk.taskmanager.adapters.TaskListAdapter;
 
 import android.app.ListActivity;
 import android.content.Intent;

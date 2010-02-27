@@ -1,4 +1,4 @@
-package com.oreilly.android.taskmanager;
+package edu.purdue.jtk.taskmanager;
 
 import android.app.Activity;
 

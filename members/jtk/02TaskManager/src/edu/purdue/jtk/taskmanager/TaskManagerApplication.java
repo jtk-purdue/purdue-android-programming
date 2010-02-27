@@ -1,8 +1,8 @@
-package com.oreilly.android.taskmanager;
+package edu.purdue.jtk.taskmanager;
 
 import java.util.ArrayList;
 
-import com.oreilly.android.taskmanager.tasks.Task;
+import edu.purdue.jtk.taskmanager.tasks.Task;
 
 import android.app.Application;
 

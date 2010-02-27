@@ -1,6 +1,6 @@
-package com.oreilly.android.taskmanager.views;
+package edu.purdue.jtk.taskmanager.views;
 
-import com.oreilly.android.taskmanager.tasks.Task;
+import edu.purdue.jtk.taskmanager.tasks.Task;
 
 import android.content.Context;
 import android.util.AttributeSet;

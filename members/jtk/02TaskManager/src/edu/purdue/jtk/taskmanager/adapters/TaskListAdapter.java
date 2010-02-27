@@ -1,4 +1,4 @@
-package com.oreilly.android.taskmanager.adapters;
+package edu.purdue.jtk.taskmanager.adapters;
 
 import java.util.ArrayList;
 
@@ -8,8 +8,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 import com.oreilly.android.taskmanager.R;
-import com.oreilly.android.taskmanager.tasks.Task;
-import com.oreilly.android.taskmanager.views.TaskListItem;
+
+import edu.purdue.jtk.taskmanager.tasks.Task;
+import edu.purdue.jtk.taskmanager.views.TaskListItem;
 
 public class TaskListAdapter extends BaseAdapter {
 	

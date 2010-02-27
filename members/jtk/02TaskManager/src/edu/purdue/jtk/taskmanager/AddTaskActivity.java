@@ -1,6 +1,8 @@
-package com.oreilly.android.taskmanager;
+package edu.purdue.jtk.taskmanager;
 
-import com.oreilly.android.taskmanager.tasks.Task;
+import com.oreilly.android.taskmanager.R;
+
+import edu.purdue.jtk.taskmanager.tasks.Task;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

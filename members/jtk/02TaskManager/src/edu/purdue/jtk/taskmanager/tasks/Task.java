@@ -1,4 +1,4 @@
-package com.oreilly.android.taskmanager.tasks;
+package edu.purdue.jtk.taskmanager.tasks;
 
 import java.io.Serializable;
 
