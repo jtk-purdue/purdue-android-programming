@@ -11,5 +11,4 @@ public class TaskManagerActivity extends Activity {
 	protected TaskManagerApplication getStuffApplication() {
 		return (TaskManagerApplication)getApplication();
 	}
-
 }

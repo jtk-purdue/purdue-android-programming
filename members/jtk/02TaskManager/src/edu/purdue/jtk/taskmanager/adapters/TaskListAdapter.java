@@ -64,5 +64,4 @@ public class TaskListAdapter extends BaseAdapter {
 		tasks.removeAll(completedTasks);
 		notifyDataSetChanged();
 	}
-
 }
