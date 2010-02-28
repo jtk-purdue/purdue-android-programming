@@ -113,7 +113,7 @@ public class TaskManagerApplication extends Application {
 		Log.i("addTask", "done: " + baos.toString());
 	}
 	
-	@SuppressWarnings("unused")
+	@SuppressWarnings({ "unused", "unchecked" })
 	private ArrayList<Task> initializeCurrentTasksStream() {
 		Context c = getBaseContext();
 		sharedPreferences = c.getSharedPreferences("prefs", Context.MODE_PRIVATE);
