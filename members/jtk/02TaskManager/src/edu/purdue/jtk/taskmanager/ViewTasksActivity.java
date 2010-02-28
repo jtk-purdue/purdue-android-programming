@@ -1,7 +1,5 @@
 package edu.purdue.jtk.taskmanager;
 
-import com.oreilly.android.taskmanager.R;
-
 import edu.purdue.jtk.taskmanager.adapters.TaskListAdapter;
 
 import android.app.ListActivity;

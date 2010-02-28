@@ -7,8 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.oreilly.android.taskmanager.R;
-
+import edu.purdue.jtk.taskmanager.R;
 import edu.purdue.jtk.taskmanager.tasks.Task;
 import edu.purdue.jtk.taskmanager.views.TaskListItem;
 
