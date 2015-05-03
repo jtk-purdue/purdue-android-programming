@@ -1,0 +1,17 @@
+# Android Programming Workshop — Purdue Local Arrangements #
+
+Interested in Java programming on the Android phone?  O'Reilly is sponsoring an online tutorial workshop:
+
+  * [Developing Android Applications with Java](http://training.oreilly.com/androidapps-java/)
+  * Instructor: Tony Hillerson
+  * Tuesdays at 2:00 EST, February 9-March 16, 2010
+
+I am arranging a "local viewing party" to watch the sessions live and offer help, answer questions, and provide additional material as necessary.  I will have a limited number of Android G1 phones to try out (you can also use the emulator).
+
+Local (Purdue) viewing:
+
+  * LWSN B158
+
+If you are interested in participating, register at the site above and let [[mailto:jtk@purdue.edu|me](mailto:jtk@purdue.edu|me)] know (so I can make sure we have enough room).  If you miss the first session, that's probably OK--we can catch you up.
+
+Tim Korb

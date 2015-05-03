@@ -1,0 +1,52 @@
+# Getting Started #
+
+Did you miss the "Overview" talk by Tony Hillerson?  Here are the steps necessary to get caught up with the rest of the class.
+
+# Preparing for the Workshop #
+
+If you do not have an account on the CS machines, send me [email](mailto:jtk@purdue.edu).
+
+If you have a laptop, you may want to use it rather than one of the lab machines.  You'll need the Java SDK, the Android SDK, Eclipse, and the Android Development Tools (ADT).
+
+  * http://www.eclipse.org/downloads/ (get eclipse-java-galileo-SR1-linux-gtk.tar.gz)
+  * http://developer.android.com/sdk/index.html
+
+If you can come a few minutes early, we can help you get set up.
+
+# Walk-Through #
+
+Here are the steps to take you through the basics, based on the environment in the instructional lab in the Lawson Building, LWSN B158 (Linux with KDE).
+
+  * Launch Eclipse (in Applications/Development).
+  * Create a workspace (preferably in a fresh directory).
+  * If necessary, set the Android SDK location in Eclipse:
+    * Eclipse -> Window -> Preferences -> Android -> SDK Location
+    * /opt/android-sdk-1.6
+  * Create a new Android project
+    * File -> New -> Other -> Android -> Android Project -> Next
+    * Project Name: Simple Flashlight
+    * Build Target: 1.6 (same as Android G1 phones we have)
+    * Application Name: Simple Flashlight
+    * Package Name: com.oreilly.simpleflashlight (or edu.purdue.YOUR-LOGIN.YOUR-APP-NAME)
+    * Activity Name: `RedFlashlightActivity`
+    * Finish (to create the project with skeleton code)
+  * Within Eclipse, launch the Android SDK and AVD Manager (on Window menu, or use the small telephone icon on the toolbar).
+    * Create a new AVD (Android Virtual Device)
+    * Name: `MyAndroid` (choose arbitrary alphanumeric string)
+    * Target: Android 1.6 (to match the Build Target, although upward compatible would be OK).
+    * Select AVD, press Start, then Launch
+    * Wait for emulator to fully initialize (it takes a couple of minutes; you'll see a lockscreen message, then press the Menu button).
+    * It is OK to close the Android SDK and AVD Manager window.
+  * Back in Eclipse...
+    * Right click on the Project (in the left window) and choose Run As -> Android Application.
+    * It should compile, build, install, and launch the `RedFlashlightActivity`.
+
+You are at a stopping point: You have configured your environment, created a simple Android project template, and installed it on the Android emulator.
+
+If you have an Android phone, you can plug it into a USB port and download your program to the phone.  You will need to enable "USB debugging":
+
+  * Menu -> Settings -> Applications -> Development -> (allow) USB debugging.
+
+Completing the Simple Flashlight application involves making changes to the screen layout, in layout/main.xml, adding new string and color constants to values/strings.xml and (adding) values/colors.html, adding a new activity (`GreenFlashlightActivity`, including updating `AndroidManifest.xml`), adding a layout for the green light activity, and modifying the main Java code (`RedFlashlightActivity`) to send an intent that starts the green activity.  We hope to post the code here in the Source.
+
+The rest of the workshop will be to develop and expand a different application, so there is no (real) need to complete the Simple Flashlight application.
